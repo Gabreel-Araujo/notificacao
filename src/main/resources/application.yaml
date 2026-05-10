@@ -1,0 +1,27 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: gabreel.contato@gmail.com
+    password: "ckjd zopw cpis vqjf"
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          connection-timeout: 5000
+          timeout: 3000
+          write-timeout: 5000
+
+  thymeleaf:
+    enabled: true
+
+envio:
+  email: "gabreel.contato@gmail.com"
+  remetente: "gabriel-alves-contato@hotmail.com"
+  nomeRemetente: "Agendador de tarefas"
+
+server:
+  port: 8082
